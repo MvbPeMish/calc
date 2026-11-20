@@ -8,10 +8,12 @@ int main() {
 
     if (op == '+') {
         std::cout << a + b << "\n";
-        } else if (op == '-') {
+    } else if (op == '-') {
         std::cout << a - b << "\n";
     } else if (op == '*') {
         std::cout << a * b << "\n";
+    } else if (op == '/') {
+        std::cout << a / b << "\n";
     } else {
         std::cout << "Неизвестная операция\n";
     }
