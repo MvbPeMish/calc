@@ -13,8 +13,12 @@ int main() {
     } else if (op == '*') {
         std::cout << a * b << "\n";
     } else if (op == '/') {
-        std::cout << a / b << "\n";
-    } else {
+        if (b == 0) {
+            std::cout << "Ошибка: деление на ноль\n";
+        } else {
+            std::cout << a / b << "\n";
+        }
+    }else {
         std::cout << "Неизвестная операция\n";
     }
     return 0;
