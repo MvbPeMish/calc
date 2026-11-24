@@ -1,7 +1,7 @@
 #include <iostream>
 
 int main() {
-    double a, b;
+    double a, b; //comment test 
     char op;
     std::cout << "Калькулятор. Введите выражение (+, -, *, /): ";
   
