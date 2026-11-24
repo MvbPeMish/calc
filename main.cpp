@@ -3,7 +3,7 @@
 int main() {
     double a, b;
     char op;
-    std::cout << "Введите выражение (+, -, *, /): ";
+    std::cout << "Enter expression (+, -, *, /): ";
     std::cin >> a >> op >> b;
 
     if (op == '+') {
